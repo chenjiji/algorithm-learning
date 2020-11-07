@@ -98,7 +98,7 @@ public class LoopQueue<E extends Comparable<E>> implements Queue {
     public static void main(String[] args) {
         LoopQueue arr = new LoopQueue(5);
 
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 10; i++) {
             arr.enqueue(i);
             System.out.println(arr);
 
@@ -107,19 +107,5 @@ public class LoopQueue<E extends Comparable<E>> implements Queue {
                 System.out.println(arr);
             }
         }
-
-        arr.dequeue();
-        arr.dequeue();
-        arr.dequeue();
-        arr.dequeue();
-        arr.dequeue();
-        arr.dequeue();
-        arr.dequeue();
-        arr.dequeue();
-        arr.dequeue();
-        arr.dequeue();
-
-        System.out.println(arr);
-
     }
 }
