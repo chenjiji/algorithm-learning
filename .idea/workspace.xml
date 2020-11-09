@@ -27,8 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7bb4fabc-7a3c-4178-8b53-4c479e7ecc73" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basicData/LoopQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicData/LoopQueue1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basicData/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicData/TestCase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +68,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.LoopQueue3">
-    <configuration name="ArrayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicData.ArrayQueue" />
+  <component name="RunManager" selected="应用程序.Deque">
+    <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicData.Deque" />
       <module name="algorithm-learning" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Deque" />
         <item itemvalue="应用程序.LoopQueue3" />
         <item itemvalue="应用程序.LoopQueue2" />
         <item itemvalue="应用程序.LoopQueue1" />
         <item itemvalue="应用程序.TestCase" />
-        <item itemvalue="应用程序.ArrayQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -210,25 +208,25 @@
       <screen x="0" y="23" width="1792" height="1040" />
     </state>
     <state x="100" y="100" width="1592" height="920" key="DiffContextDialog/0.23.1792.1040@0.23.1792.1040" timestamp="1604895194745" />
-    <state width="1750" height="278" key="GridCell.Tab.0.bottom" timestamp="1604895760986">
+    <state width="1750" height="434" key="GridCell.Tab.0.bottom" timestamp="1604899620298">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="278" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604895760986" />
+    <state width="1750" height="434" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604899620298" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015011" />
-    <state width="1750" height="278" key="GridCell.Tab.0.center" timestamp="1604895760984">
+    <state width="1750" height="434" key="GridCell.Tab.0.center" timestamp="1604899620297">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="278" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604895760984" />
+    <state width="1750" height="434" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604899620297" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015011" />
-    <state width="1750" height="278" key="GridCell.Tab.0.left" timestamp="1604895760983">
+    <state width="1750" height="434" key="GridCell.Tab.0.left" timestamp="1604899620296">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="278" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604895760983" />
+    <state width="1750" height="434" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604899620296" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015010" />
-    <state width="1750" height="278" key="GridCell.Tab.0.right" timestamp="1604895760985">
+    <state width="1750" height="434" key="GridCell.Tab.0.right" timestamp="1604899620297">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="278" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604895760985" />
+    <state width="1750" height="434" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604899620297" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015011" />
     <state x="397" y="171" key="SettingsEditor" timestamp="1604736602760">
       <screen x="0" y="0" width="1792" height="1120" />
@@ -243,9 +241,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="439" y="212" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1604736305508" />
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1604717373644">
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1604897492497">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1604717373644" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1604897492497" />
   </component>
 </project>
