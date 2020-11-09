@@ -29,8 +29,8 @@ public class TestCase {
 
         System.out.println("ArrayQueue, time: " + time1);
 
-        LoopQueue<Integer> loopQueue = new LoopQueue<>();
-        double time2 = testQueue(loopQueue, opCount);
+        LoopQueue1<Integer> loopQueue1 = new LoopQueue1<>();
+        double time2 = testQueue(loopQueue1, opCount);
 
 
         System.out.println("LoopQueue, time: " + time2);

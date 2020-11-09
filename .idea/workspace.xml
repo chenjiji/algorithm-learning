@@ -25,7 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bb4fabc-7a3c-4178-8b53-4c479e7ecc73" name="Default Changelist" comment="" />
+    <list default="true" id="7bb4fabc-7a3c-4178-8b53-4c479e7ecc73" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicData/LoopQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicData/LoopQueue1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicData/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicData/TestCase.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,11 +63,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basicData" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.TestCase">
+  <component name="RunManager" selected="应用程序.LoopQueue3">
     <configuration name="ArrayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basicData.ArrayQueue" />
       <module name="algorithm-learning" />
@@ -77,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicData.ArrayStack" />
+    <configuration name="LoopQueue1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicData.LoopQueue1" />
       <module name="algorithm-learning" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicData.LoopQueue" />
+    <configuration name="LoopQueue2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicData.LoopQueue2" />
       <module name="algorithm-learning" />
       <extension name="coverage">
         <pattern>
@@ -103,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.Solution" />
+    <configuration name="LoopQueue3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicData.LoopQueue3" />
       <module name="algorithm-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCode.*" />
+          <option name="PATTERN" value="basicData.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.LoopQueue3" />
+        <item itemvalue="应用程序.LoopQueue2" />
+        <item itemvalue="应用程序.LoopQueue1" />
         <item itemvalue="应用程序.TestCase" />
         <item itemvalue="应用程序.ArrayQueue" />
-        <item itemvalue="应用程序.Solution" />
-        <item itemvalue="应用程序.LoopQueue" />
-        <item itemvalue="应用程序.ArrayStack" />
       </list>
     </recent_temporary>
   </component>
@@ -191,29 +198,37 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="633" y="356" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1604736264087" />
+    <state x="577" y="48" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604893359781">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="577" y="48" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1604893359781" />
     <state x="675" y="482" key="DetectedRootsChooserDialog" timestamp="1604736592502">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="675" y="482" key="DetectedRootsChooserDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1604736592502" />
-    <state width="1750" height="437" key="GridCell.Tab.0.bottom" timestamp="1604735526003">
+    <state x="100" y="100" width="1592" height="920" key="DiffContextDialog" timestamp="1604895194745">
+      <screen x="0" y="23" width="1792" height="1040" />
+    </state>
+    <state x="100" y="100" width="1592" height="920" key="DiffContextDialog/0.23.1792.1040@0.23.1792.1040" timestamp="1604895194745" />
+    <state width="1750" height="278" key="GridCell.Tab.0.bottom" timestamp="1604895760986">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="437" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604735526003" />
+    <state width="1750" height="278" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604895760986" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015011" />
-    <state width="1750" height="437" key="GridCell.Tab.0.center" timestamp="1604735526002">
+    <state width="1750" height="278" key="GridCell.Tab.0.center" timestamp="1604895760984">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="437" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604735526002" />
+    <state width="1750" height="278" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604895760984" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015011" />
-    <state width="1750" height="437" key="GridCell.Tab.0.left" timestamp="1604735526002">
+    <state width="1750" height="278" key="GridCell.Tab.0.left" timestamp="1604895760983">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="437" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604735526002" />
+    <state width="1750" height="278" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604895760983" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015010" />
-    <state width="1750" height="437" key="GridCell.Tab.0.right" timestamp="1604735526003">
+    <state width="1750" height="278" key="GridCell.Tab.0.right" timestamp="1604895760985">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="437" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604735526003" />
+    <state width="1750" height="278" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604895760985" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015011" />
     <state x="397" y="171" key="SettingsEditor" timestamp="1604736602760">
       <screen x="0" y="0" width="1792" height="1120" />

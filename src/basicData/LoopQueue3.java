@@ -1,18 +1,21 @@
 package basicData;
 
-public class LoopQueue<E extends Comparable<E>> implements Queue {
+/**
+ * 没有用size变量的循环队列
+ *
+ * @param <E>
+ */
+public class LoopQueue3<E extends Comparable<E>> implements Queue {
     private int front;
     private int tail;
-    private int size;
     private Comparable[] data;
 
-    public LoopQueue() {
+    public LoopQueue3() {
         this(10);
     }
 
-    public LoopQueue(int capacity) {
+    public LoopQueue3(int capacity) {
         data = new Comparable[capacity + 1];
-        size = 0;
         tail = 0;
         front = 0;
     }
@@ -25,7 +28,6 @@ public class LoopQueue<E extends Comparable<E>> implements Queue {
 
         data[tail] = e;
         tail = (tail + 1) % data.length;
-        size++;
     }
 
     @Override
@@ -38,9 +40,8 @@ public class LoopQueue<E extends Comparable<E>> implements Queue {
 
         data[front] = null;
         front = (front + 1) % data.length;
-        size--;
 
-        if (getCapacity() / 4 == size && getCapacity() / 2 != 0) {
+        if (getCapacity() / 4 == getSize() && getCapacity() / 2 != 0) {
             resize(getCapacity() / 2);
         }
 
@@ -54,7 +55,11 @@ public class LoopQueue<E extends Comparable<E>> implements Queue {
 
     @Override
     public int getSize() {
-        return size;
+        if (front > tail) {
+            return tail + data.length - front;
+        } else {
+            return tail - front;
+        }
     }
 
     @Override
@@ -68,6 +73,7 @@ public class LoopQueue<E extends Comparable<E>> implements Queue {
 
     public void resize(int newCapacity) {
         Comparable[] newData = new Comparable[newCapacity + 1];
+        int size = getSize();
 
         for (int i = 0; i < size; i++) {
             newData[i] = data[(front + i) % data.length];
@@ -80,7 +86,7 @@ public class LoopQueue<E extends Comparable<E>> implements Queue {
 
     public String toString() {
         StringBuilder res = new StringBuilder();
-        res.append("LoopQueue Capacity: " + getCapacity() + ", Size: " + size + ", front [");
+        res.append("LoopQueue Capacity: " + getCapacity() + ", Size: " + getSize() + ", front [");
 
         for (int i = front; i != tail; i = (i + 1) % data.length) {
             res.append(data[i]);
@@ -96,7 +102,7 @@ public class LoopQueue<E extends Comparable<E>> implements Queue {
     }
 
     public static void main(String[] args) {
-        LoopQueue arr = new LoopQueue(5);
+        LoopQueue3 arr = new LoopQueue3();
 
         for (int i = 0; i < 10; i++) {
             arr.enqueue(i);
