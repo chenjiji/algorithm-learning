@@ -27,6 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7bb4fabc-7a3c-4178-8b53-4c479e7ecc73" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetCode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,19 +63,28 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="leetCode" />
       <recent name="basicData" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Deque">
-    <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicData.Deque" />
+  <component name="RunManager" selected="应用程序.MyQueue">
+    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyQueue" />
+      <module name="algorithm-learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyQueue1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyQueue1" />
       <module name="algorithm-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicData.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopQueue1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicData.LoopQueue1" />
+    <configuration name="MyQueue2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyQueue2" />
+      <module name="algorithm-learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStack1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyStack1" />
       <module name="algorithm-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicData.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,38 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopQueue2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicData.LoopQueue2" />
+    <configuration name="MyStack2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyStack2" />
       <module name="algorithm-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicData.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoopQueue3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicData.LoopQueue3" />
-      <module name="algorithm-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basicData.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicData.TestCase" />
-      <module name="algorithm-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basicData.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Deque" />
-        <item itemvalue="应用程序.LoopQueue3" />
-        <item itemvalue="应用程序.LoopQueue2" />
-        <item itemvalue="应用程序.LoopQueue1" />
-        <item itemvalue="应用程序.TestCase" />
+        <item itemvalue="应用程序.MyQueue" />
+        <item itemvalue="应用程序.MyQueue2" />
+        <item itemvalue="应用程序.MyQueue1" />
+        <item itemvalue="应用程序.MyStack2" />
+        <item itemvalue="应用程序.MyStack1" />
       </list>
     </recent_temporary>
   </component>
@@ -208,25 +199,25 @@
       <screen x="0" y="23" width="1792" height="1040" />
     </state>
     <state x="100" y="100" width="1592" height="920" key="DiffContextDialog/0.23.1792.1040@0.23.1792.1040" timestamp="1604895194745" />
-    <state width="1750" height="434" key="GridCell.Tab.0.bottom" timestamp="1604899620298">
+    <state width="1750" height="246" key="GridCell.Tab.0.bottom" timestamp="1604977915429">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="434" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604899620298" />
+    <state width="1750" height="246" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1604977915429" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015011" />
-    <state width="1750" height="434" key="GridCell.Tab.0.center" timestamp="1604899620297">
+    <state width="1750" height="246" key="GridCell.Tab.0.center" timestamp="1604977915428">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="434" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604899620297" />
+    <state width="1750" height="246" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1604977915428" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015011" />
-    <state width="1750" height="434" key="GridCell.Tab.0.left" timestamp="1604899620296">
+    <state width="1750" height="246" key="GridCell.Tab.0.left" timestamp="1604977915428">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="434" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604899620296" />
+    <state width="1750" height="246" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1604977915428" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015010" />
-    <state width="1750" height="434" key="GridCell.Tab.0.right" timestamp="1604899620297">
+    <state width="1750" height="246" key="GridCell.Tab.0.right" timestamp="1604977915429">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="434" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604899620297" />
+    <state width="1750" height="246" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1604977915429" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015011" />
     <state x="397" y="171" key="SettingsEditor" timestamp="1604736602760">
       <screen x="0" y="0" width="1792" height="1120" />
