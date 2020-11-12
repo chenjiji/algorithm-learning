@@ -158,7 +158,7 @@ public class Array<E extends Comparable<E>> {
     }
 
     private void resize(int newCapacity) {
-        Comparable[] newData =  new Comparable[newCapacity];
+        Comparable[] newData = new Comparable[newCapacity];
 
         for (int i = 0; i < size; i++) {
             newData[i] = data[i];

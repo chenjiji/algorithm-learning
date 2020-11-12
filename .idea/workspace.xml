@@ -26,8 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bb4fabc-7a3c-4178-8b53-4c479e7ecc73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basicData/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicData/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicData/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicData/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicData/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicData/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicData/TestCase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +73,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.LinkedList">
-    <configuration name="CustomStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.CustomStack" />
+  <component name="RunManager" selected="应用程序.TestCase">
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicData.LinkedList" />
       <module name="algorithm-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCode.*" />
+          <option name="PATTERN" value="basicData.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicData.LinkedList" />
+    <configuration name="LinkedListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicData.LinkedListStack" />
       <module name="algorithm-learning" />
       <extension name="coverage">
         <pattern>
@@ -124,20 +126,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="TestCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicData.TestCase" />
       <module name="algorithm-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basicData.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.TestCase" />
+        <item itemvalue="应用程序.LinkedListStack" />
         <item itemvalue="应用程序.LinkedList" />
         <item itemvalue="应用程序.Solution" />
         <item itemvalue="应用程序.MyCircularQueue" />
-        <item itemvalue="应用程序.CustomStack" />
-        <item itemvalue="应用程序.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -185,10 +193,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="717" y="369" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1604731899262" />
-    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser" timestamp="1605085402004">
+    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser" timestamp="1605150757221">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1605085402004" />
+    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1605150757221" />
     <state x="633" y="356" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604736264087">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -209,25 +217,25 @@
       <screen x="0" y="23" width="1792" height="1040" />
     </state>
     <state x="100" y="100" width="1592" height="920" key="DiffContextDialog/0.23.1792.1040@0.23.1792.1040" timestamp="1604895194745" />
-    <state width="1750" height="246" key="GridCell.Tab.0.bottom" timestamp="1605150058587">
+    <state width="1750" height="246" key="GridCell.Tab.0.bottom" timestamp="1605152011966">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="246" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1605150058587" />
+    <state width="1750" height="246" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1605152011966" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015011" />
-    <state width="1750" height="246" key="GridCell.Tab.0.center" timestamp="1605150058586">
+    <state width="1750" height="246" key="GridCell.Tab.0.center" timestamp="1605152011965">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="246" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1605150058586" />
+    <state width="1750" height="246" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1605152011965" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015011" />
-    <state width="1750" height="246" key="GridCell.Tab.0.left" timestamp="1605150058585">
+    <state width="1750" height="246" key="GridCell.Tab.0.left" timestamp="1605152011964">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="246" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1605150058585" />
+    <state width="1750" height="246" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1605152011964" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015010" />
-    <state width="1750" height="246" key="GridCell.Tab.0.right" timestamp="1605150058586">
+    <state width="1750" height="246" key="GridCell.Tab.0.right" timestamp="1605152011965">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="246" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1605150058586" />
+    <state width="1750" height="246" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1605152011965" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015011" />
     <state width="1750" height="392" key="GridCell.Tab.1.bottom" timestamp="1605086578729">
       <screen x="0" y="0" width="1792" height="1120" />

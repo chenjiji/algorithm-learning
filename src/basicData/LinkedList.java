@@ -1,6 +1,6 @@
 package basicData;
 
-public class LinkedList<E> {
+public class LinkedList<E extends Comparable<E>> {
     private class Node {
         private E e;
         private Node next;
@@ -61,7 +61,7 @@ public class LinkedList<E> {
         return false;
     }
 
-    public E get(int index) {
+    public Comparable get(int index) {
         if (index < 0 || index > size) {
             throw new IllegalArgumentException("Add failed. Illegal index.");
         }
@@ -75,11 +75,11 @@ public class LinkedList<E> {
         return current.e;
     }
 
-    public E getFirst() {
+    public Comparable getFirst() {
         return get(0);
     }
 
-    public E getLast() {
+    public Comparable getLast() {
         return get(size - 1);
     }
 
@@ -101,7 +101,7 @@ public class LinkedList<E> {
         current.e = e;
     }
 
-    public E remove(int index) {
+    public Comparable remove(int index) {
         if (index < 0 || index > size) {
             throw new IllegalArgumentException("Add failed. Illegal index.");
         }
@@ -121,11 +121,11 @@ public class LinkedList<E> {
         return res;
     }
 
-    public E removeFirst() {
+    public Comparable removeFirst() {
         return remove(0);
     }
 
-    public E removeLast() {
+    public Comparable removeLast() {
         return remove(size - 1);
     }
 
