@@ -41,22 +41,24 @@ public class TestCase {
     public static void main(String[] args) {
         int opCount = 10000;
 
-//        ArrayQueue<Integer> arrayQueue = new ArrayQueue<>();
-//        double time1 = testQueue(arrayQueue, opCount);
+        ArrayQueue<Integer> arrayQueue = new ArrayQueue<>();
+        double time1 = testQueue(arrayQueue, opCount);
+        System.out.println("ArrayQueue, time: " + time1);
+
+        LoopQueue1<Integer> loopQueue1 = new LoopQueue1<>();
+        double time2 = testQueue(loopQueue1, opCount);
+        System.out.println("LoopQueue, time: " + time2);
+
+        LinkedListQueue<Integer> linkedListQueue = new LinkedListQueue<>();
+        double time3 = testQueue(linkedListQueue, opCount);
+        System.out.println("LinkedListQueue, time: " + time3);
+
+//        ArrayStack<Integer> arrayStack = new ArrayStack<>();
+//        double time1 = testStack(arrayStack, opCount);
+//        System.out.println("ArrayStack, time: " + time1);
 //
-//        System.out.println("ArrayQueue, time: " + time1);
-//
-//        LoopQueue1<Integer> loopQueue1 = new LoopQueue1<>();
-//        double time2 = testQueue(loopQueue1, opCount);
-
-        ArrayStack<Integer> arrayStack = new ArrayStack<>();
-        double time1 = testStack(arrayStack, opCount);
-
-        System.out.println("ArrayStack, time: " + time1);
-
-        LinkedListStack<Integer> linkedListStack = new LinkedListStack<>();
-        double time2 = testStack(linkedListStack, opCount);
-
-        System.out.println("LinkedListStack, time: " + time2);
+//        LinkedListStack<Integer> linkedListStack = new LinkedListStack<>();
+//        double time2 = testStack(linkedListStack, opCount);
+//        System.out.println("LinkedListStack, time: " + time2);
     }
 }

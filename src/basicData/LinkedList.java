@@ -62,7 +62,7 @@ public class LinkedList<E extends Comparable<E>> {
     }
 
     public Comparable get(int index) {
-        if (index < 0 || index > size) {
+        if (index < 0 || index >= size) {
             throw new IllegalArgumentException("Add failed. Illegal index.");
         }
 
@@ -88,7 +88,7 @@ public class LinkedList<E extends Comparable<E>> {
     }
 
     public void set(int index, E e) {
-        if (index < 0 || index > size) {
+        if (index < 0 || index >= size) {
             throw new IllegalArgumentException("Add failed. Illegal index.");
         }
 
@@ -102,23 +102,22 @@ public class LinkedList<E extends Comparable<E>> {
     }
 
     public Comparable remove(int index) {
-        if (index < 0 || index > size) {
+        if (index < 0 || index >= size) {
             throw new IllegalArgumentException("Add failed. Illegal index.");
         }
 
-        Node current = dummyHead;
+        Node prev = dummyHead;
 
         for (int i = 0; i < index; i++) {
-            current = current.next;
+            prev = prev.next;
         }
 
-        Node next = current.next;
-        current.next = next.next;
-        E res = next.e;
-        next = null;
+        Node current = prev.next;
+        prev.next = current.next;
+        current.next = null;
         size--;
 
-        return res;
+        return current.e;
     }
 
     public Comparable removeFirst() {
