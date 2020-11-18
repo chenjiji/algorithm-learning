@@ -23,7 +23,7 @@ public class Student implements Comparable<Student> {
     @Override
     public String toString() {
 
-//        return String.format("basicSearch.Student(%s, score: %d)", this.name, this.score);
+//        return String.format("basicSort.Student(%s, score: %d)", this.name, this.score);
         return String.format("%d", this.score);
     }
 }

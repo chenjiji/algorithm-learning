@@ -25,8 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bb4fabc-7a3c-4178-8b53-4c479e7ecc73" name="Default Changelist" comment="1.用链表实现队列&#10;3.解决基础链表里的bug">
+    <list default="true" id="7bb4fabc-7a3c-4178-8b53-4c479e7ecc73" name="Default Changelist" comment="用递归实现链表部分功能，去掉虚拟头结点">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicSort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicSort/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicSort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicSort/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicSort/SortingHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicSort/SortingHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicSort/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicSort/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,22 +75,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.LinkedListR">
+  <component name="RunManager" selected="应用程序.MergeSort">
     <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basicData.LinkedList" />
-      <module name="algorithm-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basicData.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicData.LinkedListQueue" />
       <module name="algorithm-learning" />
       <extension name="coverage">
         <pattern>
@@ -104,6 +95,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="basicData.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicSort.MergeSort" />
+      <module name="algorithm-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basicSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.LinkedListR" />
+        <item itemvalue="应用程序.MergeSort" />
         <item itemvalue="应用程序.Solution" />
+        <item itemvalue="应用程序.LinkedListR" />
         <item itemvalue="应用程序.LinkedList" />
         <item itemvalue="应用程序.TestCase" />
-        <item itemvalue="应用程序.LinkedListQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605162849519</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="用递归实现链表部分功能，去掉虚拟头结点">
+      <created>1605345995365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605345995365</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,7 +212,8 @@
     <MESSAGE value="用链表实现栈，测试与数据栈的性能差距" />
     <MESSAGE value="1.用链表实现队列&#10;2.解决基础链表里的bug" />
     <MESSAGE value="1.用链表实现队列&#10;3.解决基础链表里的bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.用链表实现队列&#10;3.解决基础链表里的bug" />
+    <MESSAGE value="用递归实现链表部分功能，去掉虚拟头结点" />
+    <option name="LAST_COMMIT_MESSAGE" value="用递归实现链表部分功能，去掉虚拟头结点" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604735393739">
@@ -224,10 +236,10 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="577" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1605066669179" />
-    <state width="469" height="466" key="DebuggerActiveHint" timestamp="1605086485673">
+    <state width="469" height="466" key="DebuggerActiveHint" timestamp="1605513700074">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="469" height="466" key="DebuggerActiveHint/0.0.1792.1120@0.0.1792.1120" timestamp="1605086485673" />
+    <state width="469" height="466" key="DebuggerActiveHint/0.0.1792.1120@0.0.1792.1120" timestamp="1605513700074" />
     <state x="675" y="482" key="DetectedRootsChooserDialog" timestamp="1604736592502">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -236,59 +248,63 @@
       <screen x="0" y="23" width="1792" height="1040" />
     </state>
     <state x="100" y="100" width="1592" height="920" key="DiffContextDialog/0.23.1792.1040@0.23.1792.1040" timestamp="1604895194745" />
-    <state width="1750" height="328" key="GridCell.Tab.0.bottom" timestamp="1605345924799">
+    <state x="1153" y="299" key="FileChooserDialogImpl" timestamp="1605606927142">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="328" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1605345924799" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015011" />
-    <state width="1750" height="328" key="GridCell.Tab.0.center" timestamp="1605345924798">
+    <state x="1153" y="299" key="FileChooserDialogImpl/0.0.1792.1120@0.0.1792.1120" timestamp="1605606927142" />
+    <state width="1750" height="504" key="GridCell.Tab.0.bottom" timestamp="1605681035703">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="328" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1605345924798" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015011" />
-    <state width="1750" height="328" key="GridCell.Tab.0.left" timestamp="1605345924797">
+    <state width="1750" height="504" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1605681035703" />
+    <state width="1750" height="328" key="GridCell.Tab.0.bottom/0.23.1792.1040@0.23.1792.1040" timestamp="1605352477924" />
+    <state width="1750" height="504" key="GridCell.Tab.0.center" timestamp="1605681035702">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="328" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1605345924797" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015010" />
-    <state width="1750" height="328" key="GridCell.Tab.0.right" timestamp="1605345924798">
+    <state width="1750" height="504" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1605681035702" />
+    <state width="1750" height="328" key="GridCell.Tab.0.center/0.23.1792.1040@0.23.1792.1040" timestamp="1605352477923" />
+    <state width="1750" height="504" key="GridCell.Tab.0.left" timestamp="1605681035701">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="328" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1605345924798" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.23.1792.1040@0.23.1792.1040" timestamp="1604631015011" />
-    <state width="1750" height="392" key="GridCell.Tab.1.bottom" timestamp="1605345449850">
+    <state width="1750" height="504" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1605681035701" />
+    <state width="1750" height="328" key="GridCell.Tab.0.left/0.23.1792.1040@0.23.1792.1040" timestamp="1605352477922" />
+    <state width="1750" height="504" key="GridCell.Tab.0.right" timestamp="1605681035702">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1605345449850" />
-    <state width="1750" height="392" key="GridCell.Tab.1.center" timestamp="1605345449848">
+    <state width="1750" height="504" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1605681035702" />
+    <state width="1750" height="328" key="GridCell.Tab.0.right/0.23.1792.1040@0.23.1792.1040" timestamp="1605352477923" />
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom" timestamp="1605671399856">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1605345449848" />
-    <state width="1750" height="392" key="GridCell.Tab.1.left" timestamp="1605345449848">
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1605671399856" />
+    <state width="1750" height="392" key="GridCell.Tab.1.center" timestamp="1605671399855">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1605345449848" />
-    <state width="1750" height="392" key="GridCell.Tab.1.right" timestamp="1605345449849">
+    <state width="1750" height="392" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1605671399855" />
+    <state width="1750" height="392" key="GridCell.Tab.1.left" timestamp="1605671399854">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1605345449849" />
+    <state width="1750" height="392" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1605671399854" />
+    <state width="1750" height="392" key="GridCell.Tab.1.right" timestamp="1605671399855">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1605671399855" />
     <state x="397" y="171" key="SettingsEditor" timestamp="1604736602760">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="171" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1604736602760" />
     <state x="397" y="182" key="SettingsEditor/0.23.1792.1040@0.23.1792.1040" timestamp="1604559691985" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1605162859599">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1605346173245">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1605162859599" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1605346173245" />
     <state x="713" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605152300427">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="713" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1792.1120@0.0.1792.1120" timestamp="1605152300427" />
-    <state x="606" y="192" width="580" height="735" key="find.popup" timestamp="1604717528938">
+    <state x="1075" y="170" width="580" height="735" key="find.popup" timestamp="1605606961909">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="606" y="192" width="580" height="735" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1604717528938" />
+    <state x="1075" y="170" width="580" height="735" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1605606961909" />
     <state x="439" y="212" key="new project wizard" timestamp="1604736305508">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>

@@ -44,12 +44,12 @@ public class InsertionSort {
             Integer[] orderedList = ArrayGenerator.generateOrderedArray(n);
 //            Integer[] copyList = Arrays.copyOf(randomList, randomList.length);
             System.out.println("random");
-            SortingHelper.sortTest("basicSearch.InsertionSort", randomList);
-            SortingHelper.sortTest("basicSearch.SelectionSort", Arrays.copyOf(randomList, randomList.length));
+            SortingHelper.sortTest("InsertionSort", randomList);
+            SortingHelper.sortTest("SelectionSort", Arrays.copyOf(randomList, randomList.length));
             System.out.println("ordered");
-            SortingHelper.sortTest("basicSearch.InsertionSort", orderedList);
-            SortingHelper.sortTest("basicSearch.SelectionSort", Arrays.copyOf(orderedList, orderedList.length));
-//            basicSearch.SortingHelper.sortTest("InsertionSort2", copyList);
+            SortingHelper.sortTest("InsertionSort", orderedList);
+            SortingHelper.sortTest("SelectionSort", Arrays.copyOf(orderedList, orderedList.length));
+//            basicSort.SortingHelper.sortTest("InsertionSort2", copyList);
         }
     }
 }

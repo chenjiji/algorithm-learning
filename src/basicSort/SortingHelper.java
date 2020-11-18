@@ -21,10 +21,12 @@ public class SortingHelper {
 
         long startTime = System.nanoTime();
 
-        if (sortName.equals("basicSearch.SelectionSort")) {
+        if (sortName.equals("SelectionSort")) {
             SelectionSort.sort(arr);
         } else if (sortName.equals("InsertionSort2")) {
             InsertionSort.sort2(arr);
+        } else if (sortName.equals("MergeSort")) {
+            MergeSort.sort(arr);
         } else {
             InsertionSort.sort(arr);
         }

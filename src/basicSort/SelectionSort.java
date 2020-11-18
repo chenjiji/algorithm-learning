@@ -31,7 +31,7 @@ public class SelectionSort {
 
         for (int n : dataSize) {
             Integer[] randomList = ArrayGenerator.generateRandomArray(n, n);
-            SortingHelper.sortTest("basicSearch.SelectionSort", randomList);
+            SortingHelper.sortTest("SelectionSort", randomList);
         }
     }
 }
