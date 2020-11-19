@@ -27,6 +27,10 @@ public class SortingHelper {
             InsertionSort.sort2(arr);
         } else if (sortName.equals("MergeSort")) {
             MergeSort.sort(arr);
+        } else if (sortName.equals("MergeSort2")) {
+            MergeSort.sort2(arr);
+        } else if (sortName.equals("MergeSortToTop")) {
+            MergeSortToTop.sort(arr);
         } else {
             InsertionSort.sort(arr);
         }
