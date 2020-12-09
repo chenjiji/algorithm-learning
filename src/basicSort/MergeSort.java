@@ -89,8 +89,11 @@ public class MergeSort {
 
         res.append("[");
 
-        for (E i : arr) {
-            res.append(i + ", ");
+        for (int i = 0; i < arr.length; i++) {
+            res.append(arr[i]);
+            if (i != arr.length - 1) {
+                res.append(", ");
+            }
         }
 
         res.append("]");

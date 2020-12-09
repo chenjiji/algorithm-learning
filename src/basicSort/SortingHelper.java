@@ -31,6 +31,12 @@ public class SortingHelper {
             MergeSort.sort2(arr);
         } else if (sortName.equals("MergeSortToTop")) {
             MergeSortToTop.sort(arr);
+        } else if (sortName.equals("QuickSort")) {
+            QuickSort.sort(arr);
+        } else if (sortName.equals("QuickSort2")) {
+            QuickSort.sort2(arr);
+        } else if (sortName.equals("QuickSort2ways")) {
+            QuickSort.sort2ways(arr);
         } else {
             InsertionSort.sort(arr);
         }
