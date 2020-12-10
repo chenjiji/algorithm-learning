@@ -37,6 +37,8 @@ public class SortingHelper {
             QuickSort.sort2(arr);
         } else if (sortName.equals("QuickSort2ways")) {
             QuickSort.sort2ways(arr);
+        } else if (sortName.equals("QuickSort3ways")) {
+            QuickSort.sort3ways(arr);
         } else {
             InsertionSort.sort(arr);
         }

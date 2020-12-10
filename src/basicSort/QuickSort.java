@@ -121,6 +121,42 @@ public class QuickSort {
         return j;
     }
 
+    public static <E extends Comparable<E>> void sort3ways(E[] arr) {
+        Random random = new Random();
+        sort3ways(arr, 0, arr.length - 1, random);
+    }
+
+    // 三路快速排序
+    private static <E extends Comparable<E>> void sort3ways(E[] arr, int l, int r, Random random) {
+        if (l >= r) return;
+
+        int p = l + random.nextInt(r - l + 1);
+        swap(arr, l, p);
+
+        int lt = l + 1;
+        int i = lt;
+        int gt = r;
+        E v = arr[l];
+
+        while (i <= gt) {
+            if (arr[i].compareTo(v) < 0) {
+                swap(arr, lt, i);
+                lt++;
+                i++;
+            } else if (arr[i].compareTo(v) == 0) {
+                i++;
+            } else {
+                swap(arr, gt, i);
+                gt--;
+            }
+        }
+
+        swap(arr, l, lt - 1);
+
+        sort3ways(arr, l, lt - 1, random);
+        sort3ways(arr, gt + 1, r, random);
+    }
+
     private static <E extends Comparable<E>> void swap(E[] arr, int l, int r) {
         E temp = arr[l];
         arr[l] = arr[r];
@@ -145,26 +181,49 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        int[] dataSize = {50000};
+        int[] dataSize = {100000};
+        Integer[] arr1, arr2, arr3, arr4;
 
         for (int n : dataSize) {
             Integer[] randomArray = ArrayGenerator.generateRandomArray(n, n);
-            System.out.println("randomArray");
-            SortingHelper.sortTest("MergeSort", Arrays.copyOf(randomArray, randomArray.length));
-            SortingHelper.sortTest("QuickSort2", Arrays.copyOf(randomArray, randomArray.length));
-            SortingHelper.sortTest("QuickSort2ways", Arrays.copyOf(randomArray, randomArray.length));
-            System.out.println("");
-            Integer[] orderedArray = ArrayGenerator.generateOrderedArray(n);
-            System.out.println("orderedArray");
-            SortingHelper.sortTest("MergeSort", Arrays.copyOf(orderedArray, orderedArray.length));
-            SortingHelper.sortTest("QuickSort2", Arrays.copyOf(orderedArray, orderedArray.length));
-            SortingHelper.sortTest("QuickSort2ways", Arrays.copyOf(orderedArray, orderedArray.length));
+            arr1 = Arrays.copyOf(randomArray, randomArray.length);
+            arr2 = Arrays.copyOf(randomArray, randomArray.length);
+            arr3 = Arrays.copyOf(randomArray, randomArray.length);
+            arr4 = Arrays.copyOf(randomArray, randomArray.length);
 
-            Integer[] randomArray2 = ArrayGenerator.generateRandomArray(n, 1);
+            System.out.println("randomArray");
+            SortingHelper.sortTest("MergeSort", arr1);
+            SortingHelper.sortTest("QuickSort2", arr2);
+            SortingHelper.sortTest("QuickSort2ways", arr3);
+            SortingHelper.sortTest("QuickSort3ways", arr4);
+
             System.out.println("");
-            System.out.println("randomArray2");
-            SortingHelper.sortTest("QuickSort2", Arrays.copyOf(randomArray2, randomArray2.length));
-            SortingHelper.sortTest("QuickSort2ways", Arrays.copyOf(randomArray2, randomArray2.length));
+
+            Integer[] orderedArray = ArrayGenerator.generateOrderedArray(n);
+            arr1 = Arrays.copyOf(orderedArray, orderedArray.length);
+            arr2 = Arrays.copyOf(orderedArray, orderedArray.length);
+            arr3 = Arrays.copyOf(orderedArray, orderedArray.length);
+            arr4 = Arrays.copyOf(orderedArray, orderedArray.length);
+
+            System.out.println("orderedArray");
+            SortingHelper.sortTest("MergeSort", arr1);
+            SortingHelper.sortTest("QuickSort2", arr2);
+            SortingHelper.sortTest("QuickSort2ways", arr3);
+            SortingHelper.sortTest("QuickSort3ways", arr4);
+
+            System.out.println("");
+
+            Integer[] sameArray = ArrayGenerator.generateRandomArray(n, 1);
+            arr1 = Arrays.copyOf(sameArray, sameArray.length);
+            arr2 = Arrays.copyOf(sameArray, sameArray.length);
+            arr3 = Arrays.copyOf(sameArray, sameArray.length);
+            arr4 = Arrays.copyOf(sameArray, sameArray.length);
+
+            System.out.println("sameArray");
+            SortingHelper.sortTest("MergeSort", arr1);
+            SortingHelper.sortTest("QuickSort2", arr2);
+            SortingHelper.sortTest("QuickSort2ways", arr3);
+            SortingHelper.sortTest("QuickSort3ways", arr4);
         }
     }
 }
