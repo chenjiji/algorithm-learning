@@ -25,8 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bb4fabc-7a3c-4178-8b53-4c479e7ecc73" name="Default Changelist" comment="递归方式实现二分查找">
+    <list default="true" id="7bb4fabc-7a3c-4178-8b53-4c479e7ecc73" name="Default Changelist" comment="非递归方式实现二分查找">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicSearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicSearch/BinarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +131,7 @@
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.Solution" />
       <module name="algorithm-learning" />
+      <option name="VM_PARAMETERS" value="-Xss128m" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetCode.*" />
@@ -150,8 +152,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.BinarySearch" />
-        <item itemvalue="应用程序.QuickSort" />
         <item itemvalue="应用程序.Solution" />
+        <item itemvalue="应用程序.QuickSort" />
         <item itemvalue="应用程序.MergeSortToTop" />
         <item itemvalue="应用程序.InsertionSort" />
       </list>
@@ -222,7 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607684401557</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="非递归方式实现二分查找">
+      <created>1607684919357</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607684919357</updated>
+    </task>
+    <task id="LOCAL-00010" summary="非递归方式实现二分查找">
+      <created>1607684925309</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607684925309</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,13 +275,14 @@
     <MESSAGE value="1.完全有序数组快速排序优化&#10;2.双路快速排序" />
     <MESSAGE value="1.实现三路快速排序算法" />
     <MESSAGE value="递归方式实现二分查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="递归方式实现二分查找" />
+    <MESSAGE value="非递归方式实现二分查找" />
+    <option name="LAST_COMMIT_MESSAGE" value="非递归方式实现二分查找" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607509953019">
+    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607686717037">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1607509953019" />
+    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1607686717037" />
     <state x="717" y="369" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604731899262">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -299,55 +316,55 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="1153" y="299" key="FileChooserDialogImpl/0.0.1792.1120@0.0.1792.1120" timestamp="1605606927142" />
-    <state width="1750" height="299" key="GridCell.Tab.0.bottom" timestamp="1607684473178">
+    <state width="1750" height="299" key="GridCell.Tab.0.bottom" timestamp="1608194551932">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="299" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607684473178" />
+    <state width="1750" height="299" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1608194551932" />
     <state width="1750" height="386" key="GridCell.Tab.0.bottom/0.23.1792.1040@0.23.1792.1040" timestamp="1607587444323" />
-    <state width="1750" height="299" key="GridCell.Tab.0.center" timestamp="1607684473177">
+    <state width="1750" height="299" key="GridCell.Tab.0.center" timestamp="1608194551931">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="299" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607684473177" />
+    <state width="1750" height="299" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1608194551931" />
     <state width="1750" height="386" key="GridCell.Tab.0.center/0.23.1792.1040@0.23.1792.1040" timestamp="1607587444322" />
-    <state width="1750" height="299" key="GridCell.Tab.0.left" timestamp="1607684473177">
+    <state width="1750" height="299" key="GridCell.Tab.0.left" timestamp="1608194551930">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="299" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607684473177" />
+    <state width="1750" height="299" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1608194551930" />
     <state width="1750" height="386" key="GridCell.Tab.0.left/0.23.1792.1040@0.23.1792.1040" timestamp="1607587444322" />
-    <state width="1750" height="299" key="GridCell.Tab.0.right" timestamp="1607684473177">
+    <state width="1750" height="299" key="GridCell.Tab.0.right" timestamp="1608194551931">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="299" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607684473177" />
+    <state width="1750" height="299" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1608194551931" />
     <state width="1750" height="386" key="GridCell.Tab.0.right/0.23.1792.1040@0.23.1792.1040" timestamp="1607587444323" />
-    <state width="1750" height="392" key="GridCell.Tab.1.bottom" timestamp="1607602141272">
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom" timestamp="1607947813334">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607602141272" />
-    <state width="1750" height="392" key="GridCell.Tab.1.center" timestamp="1607602141271">
+    <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607947813334" />
+    <state width="1750" height="392" key="GridCell.Tab.1.center" timestamp="1607947813333">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607602141271" />
-    <state width="1750" height="392" key="GridCell.Tab.1.left" timestamp="1607602141271">
+    <state width="1750" height="392" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607947813333" />
+    <state width="1750" height="392" key="GridCell.Tab.1.left" timestamp="1607947813333">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607602141271" />
-    <state width="1750" height="392" key="GridCell.Tab.1.right" timestamp="1607602141271">
+    <state width="1750" height="392" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607947813333" />
+    <state width="1750" height="392" key="GridCell.Tab.1.right" timestamp="1607947813334">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607602141271" />
+    <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607947813334" />
     <state x="397" y="171" key="SettingsEditor" timestamp="1604736602760">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="171" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1604736602760" />
     <state x="397" y="182" key="SettingsEditor/0.23.1792.1040@0.23.1792.1040" timestamp="1604559691985" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1607594874197">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1607684999838">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1607594874197" />
-    <state x="713" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605152300427">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1607684999838" />
+    <state x="713" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607685005706">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="713" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1792.1120@0.0.1792.1120" timestamp="1605152300427" />
+    <state x="713" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1792.1120@0.0.1792.1120" timestamp="1607685005706" />
     <state x="1075" y="170" width="580" height="735" key="find.popup" timestamp="1605606961909">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>

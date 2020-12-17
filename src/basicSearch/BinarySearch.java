@@ -29,6 +29,23 @@ public class BinarySearch {
         return res;
     }
 
+    public static <E extends Comparable<E>> int upper(E[] arr, E target) {
+        int r = arr.length;
+        int l = 0;
+        int mid;
+
+        while (l < r) {
+            mid = l + (r - l) / 2;
+
+            if (arr[mid].compareTo(target) > 0)
+                r = mid;
+            else
+                l = mid + 1;
+        }
+
+        return l;
+    }
+
     // 递归方式实现二分查找
     public static <E extends Comparable<E>> int searchR(E[] arr, E target) {
         return searchR(arr, target, 0, arr.length - 1);
@@ -48,10 +65,16 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
-        Integer[] arr = ArrayGenerator.generateOrderedArray(100000);
+//        Integer[] arr1 = ArrayGenerator.generateOrderedArray(100000);
+//
+//        int targetIndex = BinarySearch.search(arr1, 12345);
+//
+//        System.out.println(targetIndex + ": " + arr1[targetIndex]);
 
-        int targetIndex = BinarySearch.search(arr, 12345);
+        Integer[] arr2 = ArrayGenerator.generateOrderedArray(100);
 
-        System.out.println(targetIndex + ": " + arr[targetIndex]);
+        int res = BinarySearch.upper(arr2, 60);
+
+        System.out.println(res);
     }
 }
