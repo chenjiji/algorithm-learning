@@ -45,6 +45,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1jrPdWetT4qw5Krnf7Sf7t7lRrk" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="新增" />
@@ -56,11 +64,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/algorithm-learning/basicSort" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="全局库" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -74,7 +83,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.BinarySearch">
+  <component name="RunManager" selected="应用程序.Solution">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basicSearch.BinarySearch" />
       <module name="algorithm-learning" />
@@ -143,19 +152,16 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="应用程序.BinarySearch" />
       <item itemvalue="应用程序.InsertionSort" />
       <item itemvalue="应用程序.MergeSortToTop" />
       <item itemvalue="应用程序.QuickSort" />
       <item itemvalue="应用程序.Solution" />
-      <item itemvalue="应用程序.BinarySearch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.BinarySearch" />
         <item itemvalue="应用程序.Solution" />
-        <item itemvalue="应用程序.QuickSort" />
-        <item itemvalue="应用程序.MergeSortToTop" />
-        <item itemvalue="应用程序.InsertionSort" />
+        <item itemvalue="应用程序.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -277,105 +283,5 @@
     <MESSAGE value="递归方式实现二分查找" />
     <MESSAGE value="非递归方式实现二分查找" />
     <option name="LAST_COMMIT_MESSAGE" value="非递归方式实现二分查找" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607686717037">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1607686717037" />
-    <state x="717" y="369" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604731899262">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="717" y="369" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1604731899262" />
-    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser" timestamp="1605187478141">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1605187478141" />
-    <state x="633" y="356" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604736264087">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="633" y="356" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1604736264087" />
-    <state x="577" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605066669179">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="577" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1605066669179" />
-    <state width="469" height="466" key="DebuggerActiveHint" timestamp="1605513700074">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="469" height="466" key="DebuggerActiveHint/0.0.1792.1120@0.0.1792.1120" timestamp="1605513700074" />
-    <state x="675" y="482" key="DetectedRootsChooserDialog" timestamp="1604736592502">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="675" y="482" key="DetectedRootsChooserDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1604736592502" />
-    <state x="100" y="83" width="1592" height="991" key="DiffContextDialog" timestamp="1605708918984">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="100" y="83" width="1592" height="991" key="DiffContextDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1605708918984" />
-    <state x="100" y="100" width="1592" height="920" key="DiffContextDialog/0.23.1792.1040@0.23.1792.1040" timestamp="1604895194745" />
-    <state x="1153" y="299" key="FileChooserDialogImpl" timestamp="1605606927142">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="1153" y="299" key="FileChooserDialogImpl/0.0.1792.1120@0.0.1792.1120" timestamp="1605606927142" />
-    <state width="1750" height="299" key="GridCell.Tab.0.bottom" timestamp="1608194551932">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="299" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1608194551932" />
-    <state width="1750" height="386" key="GridCell.Tab.0.bottom/0.23.1792.1040@0.23.1792.1040" timestamp="1607587444323" />
-    <state width="1750" height="299" key="GridCell.Tab.0.center" timestamp="1608194551931">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="299" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1608194551931" />
-    <state width="1750" height="386" key="GridCell.Tab.0.center/0.23.1792.1040@0.23.1792.1040" timestamp="1607587444322" />
-    <state width="1750" height="299" key="GridCell.Tab.0.left" timestamp="1608194551930">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="299" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1608194551930" />
-    <state width="1750" height="386" key="GridCell.Tab.0.left/0.23.1792.1040@0.23.1792.1040" timestamp="1607587444322" />
-    <state width="1750" height="299" key="GridCell.Tab.0.right" timestamp="1608194551931">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="299" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1608194551931" />
-    <state width="1750" height="386" key="GridCell.Tab.0.right/0.23.1792.1040@0.23.1792.1040" timestamp="1607587444323" />
-    <state width="1750" height="392" key="GridCell.Tab.1.bottom" timestamp="1607947813334">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607947813334" />
-    <state width="1750" height="392" key="GridCell.Tab.1.center" timestamp="1607947813333">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607947813333" />
-    <state width="1750" height="392" key="GridCell.Tab.1.left" timestamp="1607947813333">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607947813333" />
-    <state width="1750" height="392" key="GridCell.Tab.1.right" timestamp="1607947813334">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1750" height="392" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607947813334" />
-    <state x="397" y="171" key="SettingsEditor" timestamp="1604736602760">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="397" y="171" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1604736602760" />
-    <state x="397" y="182" key="SettingsEditor/0.23.1792.1040@0.23.1792.1040" timestamp="1604559691985" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1607684999838">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1607684999838" />
-    <state x="713" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607685005706">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="713" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1792.1120@0.0.1792.1120" timestamp="1607685005706" />
-    <state x="1075" y="170" width="580" height="735" key="find.popup" timestamp="1605606961909">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="1075" y="170" width="580" height="735" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1605606961909" />
-    <state x="439" y="212" key="new project wizard" timestamp="1604736305508">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="439" y="212" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1604736305508" />
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1605342300185">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1605342300185" />
   </component>
 </project>
