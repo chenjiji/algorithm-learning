@@ -1,6 +1,8 @@
-package basicSearch;
+package basicData;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
 
 public class BST<E extends Comparable<E>> {
     private class Node {
@@ -128,7 +130,7 @@ public class BST<E extends Comparable<E>> {
 
     // 非递归-前序遍历
     public void preOrder2() {
-        Stack<Node> stack = new Stack<Node>();
+        java.util.Stack<Node> stack = new Stack<>();
         stack.push(this.getRoot());
         System.out.print("前序遍历: ");
 
@@ -177,7 +179,7 @@ public class BST<E extends Comparable<E>> {
 
     // 层序遍历
     public void levelOrder() {
-        Queue<Node> queue = new LinkedList<Node>();
+        Queue<Node> queue = new LinkedList<>();
         queue.add(this.getRoot());
         System.out.print("层序遍历: ");
 
@@ -317,7 +319,7 @@ public class BST<E extends Comparable<E>> {
     }
 
     public static void main(String[] args) {
-        BST<Integer> bst = new BST<Integer>();
+        BST<Integer> bst = new BST<>();
         Integer[] arr = new Integer[]{5, 3, 6, 8, 4, 2};
 
         for (Integer i : arr) {
