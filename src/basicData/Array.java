@@ -5,7 +5,7 @@ import basicSort.Student;
 public class Array<E extends Comparable<E>> {
 
     private int size;
-    private Comparable[] data;
+    private E[] data;
 
     public Array() {
         this(10);
@@ -13,7 +13,7 @@ public class Array<E extends Comparable<E>> {
 
     public Array(int capacity) {
         this.size = 0;
-        this.data = new Comparable[capacity];
+        this.data = (E[]) new Comparable[capacity];
     }
 
     public boolean isEmpty() {
@@ -24,11 +24,20 @@ public class Array<E extends Comparable<E>> {
         return size;
     }
 
-    public void push(Comparable e) {
+    public void push(E e) {
         insert(size, e);
     }
 
-    public void insert(int index, Comparable e) {
+    public void swap(int i, int j) {
+        if (i < 0 || i >= size || j < 0 || j >= size)
+            throw new IllegalArgumentException("Index is illegal.");
+
+        E temp = data[i];
+        data[i] = data[j];
+        data[j] = temp;
+    }
+
+    public void insert(int index, E e) {
         if (index < 0 || index > size) {
             throw new RuntimeException("Insert Failed. Index must be >= 0 && < Array.length.");
         }
@@ -49,7 +58,7 @@ public class Array<E extends Comparable<E>> {
         insert(0, e);
     }
 
-    public Comparable get(int index) {
+    public E get(int index) {
         if (index > size - 1 || index < 0) {
             throw new RuntimeException("Get failed. Index is illegal.");
         }
@@ -85,12 +94,12 @@ public class Array<E extends Comparable<E>> {
         return -1;
     }
 
-    public Comparable delete(int index) {
+    public E delete(int index) {
         if (index > size - 1 || index < 0) {
             throw new RuntimeException("Set failed. Index is illegal.");
         }
 
-        Comparable delElem = data[index];
+        E delElem = data[index];
 
         for (int i = index; i < size - 1; i++) {
             data[i] = data[i + 1];
@@ -107,23 +116,26 @@ public class Array<E extends Comparable<E>> {
         return delElem;
     }
 
-    public Comparable getFirst() {
+    public E getFirst() {
+        if (size == 0)
+            throw new IllegalArgumentException("data is null");
+
         return get(0);
     }
 
-    public Comparable getLast() {
+    public E getLast() {
         return get(size - 1);
     }
 
-    public Comparable deleteFirst() {
+    public E deleteFirst() {
         return delete(0);
     }
 
-    public void addLast(Comparable e) {
+    public void addLast(E e) {
         insert(size, e);
     }
 
-    public Comparable deleteLast() {
+    public E deleteLast() {
         return delete(size - 1);
     }
 
@@ -158,7 +170,7 @@ public class Array<E extends Comparable<E>> {
     }
 
     private void resize(int newCapacity) {
-        Comparable[] newData = new Comparable[newCapacity];
+        E[] newData = (E[]) new Comparable[newCapacity];
 
         for (int i = 0; i < size; i++) {
             newData[i] = data[i];
