@@ -16,6 +16,11 @@ public class Array<E extends Comparable<E>> {
         this.data = (E[]) new Comparable[capacity];
     }
 
+    public Array(E[] arr) {
+        size = arr.length;
+        data = arr;
+    }
+
     public boolean isEmpty() {
         return size == 0;
     }

@@ -221,7 +221,7 @@ public class QuickSort {
 
             System.out.println("sameArray");
             SortingHelper.sortTest("MergeSort", arr1);
-            SortingHelper.sortTest("QuickSort2", arr2);
+//            SortingHelper.sortTest("QuickSort2", arr2);
             SortingHelper.sortTest("QuickSort2ways", arr3);
             SortingHelper.sortTest("QuickSort3ways", arr4);
         }

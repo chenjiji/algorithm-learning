@@ -21,33 +21,37 @@ public class SortingHelper {
 
         long startTime = System.nanoTime();
 
-        if (sortName.equals("SelectionSort")) {
+        if (sortName.equals("SelectionSort"))
             SelectionSort.sort(arr);
-        } else if (sortName.equals("InsertionSort2")) {
+        else if (sortName.equals("InsertionSort2"))
             InsertionSort.sort2(arr);
-        } else if (sortName.equals("MergeSort")) {
+        else if (sortName.equals("MergeSort"))
             MergeSort.sort(arr);
-        } else if (sortName.equals("MergeSort2")) {
+        else if (sortName.equals("MergeSort2"))
             MergeSort.sort2(arr);
-        } else if (sortName.equals("MergeSortToTop")) {
+        else if (sortName.equals("MergeSortToTop"))
             MergeSortToTop.sort(arr);
-        } else if (sortName.equals("QuickSort")) {
+        else if (sortName.equals("QuickSort"))
             QuickSort.sort(arr);
-        } else if (sortName.equals("QuickSort2")) {
+        else if (sortName.equals("QuickSort2"))
             QuickSort.sort2(arr);
-        } else if (sortName.equals("QuickSort2ways")) {
+        else if (sortName.equals("QuickSort2ways"))
             QuickSort.sort2ways(arr);
-        } else if (sortName.equals("QuickSort3ways")) {
+        else if (sortName.equals("QuickSort3ways"))
             QuickSort.sort3ways(arr);
-        } else {
+        else if (sortName.equals("HeapSort"))
+            HeapSort.sort(arr);
+        else if (sortName.equals("HeapSort2"))
+            HeapSort.sort2(arr);
+        else
             InsertionSort.sort(arr);
-        }
+
 
         long endTime = System.nanoTime();
 
-        if (!SortingHelper.isSorted(arr)) {
+        if (!SortingHelper.isSorted(arr))
             throw new RuntimeException(sortName + " failed");
-        }
+
 
         System.out.println(String.format("%s, n=%d : %fs", sortName, arr.length, (endTime - startTime) / 1000000000.0));
     }
