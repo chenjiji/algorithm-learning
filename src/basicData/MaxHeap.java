@@ -25,7 +25,7 @@ public class MaxHeap<E extends Comparable<E>> {
     }
 
     // 取出堆中的最大元素，并且替换成元素e
-    public E replace(E e){
+    public E replace(E e) {
         E ret = data.getFirst();
         data.set(0, e);
         siftDown(0);
@@ -105,6 +105,13 @@ public class MaxHeap<E extends Comparable<E>> {
         siftDown(0);
 
         return max;
+    }
+
+    public E findMax() {
+        if (size() == 0)
+            throw new IllegalArgumentException("MaxHeap is none data.");
+
+        return data.get(0);
     }
 
     public static void main(String[] args) {
