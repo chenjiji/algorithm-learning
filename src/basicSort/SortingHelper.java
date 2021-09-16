@@ -49,6 +49,10 @@ public class SortingHelper {
             BubbleSort.sort2(arr);
         else if (sortName.equals("BubbleSort3"))
             BubbleSort.sort3(arr);
+        else if (sortName.equals("ShellSort"))
+            ShellSort.sort(arr);
+        else if (sortName.equals("ShellSort2"))
+            ShellSort.sort2(arr);
         else
             InsertionSort.sort(arr);
 
