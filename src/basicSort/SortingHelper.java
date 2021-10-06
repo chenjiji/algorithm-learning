@@ -35,9 +35,9 @@ public class SortingHelper {
             QuickSort.sort(arr);
         else if (sortName.equals("QuickSort2"))
             QuickSort.sort2(arr);
-        else if (sortName.equals("QuickSort2ways"))
+        else if (sortName.equals("QuickSort2Ways"))
             QuickSort.sort2ways(arr);
-        else if (sortName.equals("QuickSort3ways"))
+        else if (sortName.equals("QuickSort3Ways"))
             QuickSort.sort3ways(arr);
         else if (sortName.equals("HeapSort"))
             HeapSort.sort(arr);
@@ -53,7 +53,14 @@ public class SortingHelper {
             ShellSort.sort(arr);
         else if (sortName.equals("ShellSort2"))
             ShellSort.sort2(arr);
-        else
+        else if (sortName.equals("LSDSort")) {
+            String[] strArr = (String[]) arr;
+            if (strArr.length == 0) throw new IllegalArgumentException("arr can not be empty.");
+            LSDSort.sort(strArr, strArr[0].length());
+        } else if (sortName.equals("MSDSort")) {
+            String[] strArr = (String[]) arr;
+            MSDSort.sort(strArr);
+        } else
             InsertionSort.sort(arr);
 
         long endTime = System.nanoTime();
