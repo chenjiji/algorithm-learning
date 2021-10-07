@@ -63,6 +63,9 @@ public class SortingHelper {
         } else if (sortName.equals("BucketSort")) {
             Integer[] intArr = (Integer[]) arr;
             BucketSort.sort(intArr, 200);
+        } else if (sortName.equals("BucketSort2")) {
+            Integer[] intArr = (Integer[]) arr;
+            BucketSort.sort2(intArr, 100);
         } else
             InsertionSort.sort(arr);
 
