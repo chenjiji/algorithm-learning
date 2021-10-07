@@ -60,6 +60,9 @@ public class SortingHelper {
         } else if (sortName.equals("MSDSort")) {
             String[] strArr = (String[]) arr;
             MSDSort.sort(strArr);
+        } else if (sortName.equals("BucketSort")) {
+            Integer[] intArr = (Integer[]) arr;
+            BucketSort.sort(intArr, 200);
         } else
             InsertionSort.sort(arr);
 
